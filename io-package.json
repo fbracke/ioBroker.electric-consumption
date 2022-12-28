@@ -1,0 +1,103 @@
+{
+	"common": {
+		"name": "electric-consumption",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Electric Consumption",
+		"titleLang": {
+			"en": "Electric Consumption",
+			"de": "Stromverbrauch",
+			"ru": "Потребление электроэнергии",
+			"pt": "Consumo Elétrico",
+			"nl": "Elektrisch verbruik",
+			"fr": "Consommation électrique",
+			"it": "Consumo elettrico",
+			"es": "Consumo eléctrico",
+			"pl": "Zużycie energii elektrycznej",
+			"zh-cn": "耗电量"
+		},
+		"desc": {
+			"en": "Manage power consumption historically",
+			"de": "Verwalten Sie den Stromverbrauch historisch",
+			"ru": "Управляйте энергопотреблением исторически",
+			"pt": "Gerencie o consumo de energia historicamente",
+			"nl": "Beheer stroomverbruik historisch",
+			"fr": "Gérer historiquement la consommation d'énergie",
+			"it": "Gestisci il consumo di energia storicamente",
+			"es": "Administrar el consumo de energía históricamente",
+			"pl": "Historycznie zarządzaj zużyciem energii",
+			"zh-cn": "历史管理功耗"
+		},
+		"authors": ["fbracke <fbracke@gmx.de>"],
+		"keywords": ["Power", "Histroy"],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "electric-consumption.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/fbracke/ioBroker.electric-consumption/main/admin/electric-consumption.png",
+		"readme": "https://github.com/fbracke/ioBroker.electric-consumption/blob/main/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "push",
+		"adminUI": {
+			"config": "materialize"
+		},
+		"supportCustoms": true,
+		"eraseOnUpload": true,
+		"dependencies": [
+			{
+				"js-controller": ">=3.3.22"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=5.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": [
+		{
+			"_id": "info",
+			"type": "channel",
+			"common": {
+				"name": "Information"
+			},
+			"native": {}
+		},
+		{
+			"_id": "info.connection",
+			"type": "state",
+			"common": {
+				"role": "indicator.connected",
+				"name": "Device or service connected",
+				"type": "boolean",
+				"read": true,
+				"write": false,
+				"def": false
+			},
+			"native": {}
+		}
+	]
+}
