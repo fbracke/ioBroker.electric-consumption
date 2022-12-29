@@ -1,0 +1,11 @@
+{
+    "Options": "Параметры",
+    "Basic configuration": "Базовая конфигурация",
+    "Alias name": "Псевдоним",
+    "If no alias is set, original name will be used": "Если псевдоним не задан, будет использоваться оригинальное имя.",
+    "Offset": "Компенсировать",
+    "Offset day": "День смещения",
+    "Offset month": "Месяц смещения",
+    "Offset year": "Год смещения",
+    "Offset today": "Смещение сегодня"
+}

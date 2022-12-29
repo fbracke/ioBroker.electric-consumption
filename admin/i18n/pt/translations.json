@@ -1,0 +1,11 @@
+{
+    "Options": "Opções",
+    "Basic configuration": "Configuração básica",
+    "Alias name": "nome alternativo",
+    "If no alias is set, original name will be used": "Se nenhum alias for definido, o nome original será usado",
+    "Offset": "Desvio",
+    "Offset day": "Dia compensado",
+    "Offset month": "Mês compensado",
+    "Offset year": "Ano compensado",
+    "Offset today": "compensado hoje"
+}

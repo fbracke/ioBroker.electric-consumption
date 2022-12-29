@@ -1,0 +1,11 @@
+{
+    "Options": "Options",
+    "Basic configuration": "Basic configuration",
+    "Alias name": "Alias name",
+    "If no alias is set, original name will be used": "If no alias is set, original name will be used",
+    "Offset": "Offset",
+    "Offset today": "Offset today",
+    "Offset day": "Offset day",
+    "Offset month": "Offset month",
+    "Offset year": "Offset year"
+}

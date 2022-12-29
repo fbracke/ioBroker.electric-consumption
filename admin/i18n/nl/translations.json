@@ -1,0 +1,11 @@
+{
+    "Options": "Opties",
+    "Basic configuration": "Basis configuratie",
+    "Alias name": "Alias ​​naam",
+    "If no alias is set, original name will be used": "Als er geen alias is ingesteld, wordt de oorspronkelijke naam gebruikt",
+    "Offset": "Verschuiving",
+    "Offset day": "Offset dag",
+    "Offset month": "Offset maand",
+    "Offset year": "Offset jaar",
+    "Offset today": "Compensatie vandaag"
+}

@@ -1,0 +1,11 @@
+{
+    "Options": "选项",
+    "Basic configuration": "基本配置",
+    "Alias name": "别名",
+    "If no alias is set, original name will be used": "如果没有设置别名，将使用原始名称",
+    "Offset": "抵消",
+    "Offset day": "抵消日",
+    "Offset month": "抵消月份",
+    "Offset year": "偏移年份",
+    "Offset today": "今天抵消"
+}

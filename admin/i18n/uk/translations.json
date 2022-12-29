@@ -1,0 +1,11 @@
+{
+    "Options": "Опції",
+    "Basic configuration": "Базова конфігурація",
+    "Alias name": "Псевдонім",
+    "If no alias is set, original name will be used": "Якщо псевдонім не встановлено, використовуватиметься оригінальне ім’я",
+    "Offset": "Зсув",
+    "Offset day": "День заліку",
+    "Offset month": "Місяць заліку",
+    "Offset year": "Заліковий рік",
+    "Offset today": "Залік сьогодні"
+}

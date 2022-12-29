@@ -41,6 +41,10 @@ class ElectricConsumption extends utils.Adapter {
 		this.log.info("config option1: " + this.config.option1);
 		this.log.info("config option2: " + this.config.option2);
 
+		// Get all objects with custom configuration items
+		const customStateArray = await this.getObjectViewAsync("system", "custom", {});
+		this.log.debug(`All states with custom items : ${JSON.stringify(customStateArray)}`);
+
 		/*
 		For every state in the system there has to be also an object of type state
 		Here a simple template for a boolean variable named "testVariable"
@@ -77,7 +81,7 @@ class ElectricConsumption extends utils.Adapter {
 		await this.setStateAsync("testVariable", { val: true, ack: true });
 
 		// same thing, but the state is deleted after 30s (getState will return null afterwards)
-		await this.setStateAsync("testVariable", { val: true, ack: true, expire: 30 });
+		await this.setStateAsync("testVariable", { val: true, ack: true, expire: 60 });
 
 		// examples for the checkPassword/checkGroup functions
 		let result = await this.checkPasswordAsync("admin", "iobroker");

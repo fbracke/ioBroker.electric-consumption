@@ -1,0 +1,11 @@
+{
+    "Options": "Choix",
+    "Basic configuration": "Configuration de base",
+    "Alias name": "Surnom",
+    "If no alias is set, original name will be used": "Si aucun alias n'est défini, le nom d'origine sera utilisé",
+    "Offset": "Décalage",
+    "Offset day": "Jour décalé",
+    "Offset month": "Mois décalé",
+    "Offset year": "Année de décalage",
+    "Offset today": "Décalage aujourd'hui"
+}

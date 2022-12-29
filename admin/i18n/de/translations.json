@@ -1,0 +1,11 @@
+{
+    "Options": "Optionen",
+    "Basic configuration": "Grundlegende Einstellung",
+    "Alias name": "Alias",
+    "If no alias is set, original name will be used": "Wenn kein Alias ​​festgelegt ist, wird der ursprüngliche Name verwendet",
+    "Offset": "Versatz",
+    "Offset day": "Tag",
+    "Offset month": "Monat",
+    "Offset year": "Jahr",
+    "Offset today": "Heute"
+}

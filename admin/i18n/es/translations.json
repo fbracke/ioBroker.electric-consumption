@@ -1,0 +1,11 @@
+{
+    "Options": "Opciones",
+    "Basic configuration": "Configuracion basica",
+    "Alias name": "Apodo",
+    "If no alias is set, original name will be used": "Si no se establece ningún alias, se utilizará el nombre original",
+    "Offset": "Offset",
+    "Offset day": "día de compensación",
+    "Offset month": "Mes de compensación",
+    "Offset year": "Año de compensación",
+    "Offset today": "Compensación hoy"
+}
